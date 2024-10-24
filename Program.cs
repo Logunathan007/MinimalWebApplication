@@ -64,4 +64,4 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUi();
 }
 
-app.Run();
+app.Run("https://localhost:5000");
